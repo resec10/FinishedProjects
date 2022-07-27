@@ -14,5 +14,3 @@ def decoder(word):
 
     answer = "".join(damn)
     print(answer)
-
-decoder('''(*%/b ~*% k>a`ăk nă z%kbăkăb (]a` > @l]eă *k > `>zzăk? x%+a (>la a* @l*( e*k e%a%kă kăeăkăl$ă.''')
