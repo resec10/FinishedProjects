@@ -12,5 +12,3 @@ def encoder(word):
         damn.append(letter[dudd])
     answer = "".join(damn)
     print(answer)
-
-encoder('''Would you rather be murdered with a knife or a hammer? Just want to know for future reference.''')
