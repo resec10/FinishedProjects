@@ -7,4 +7,5 @@ void hello(){
 
 int main(){
     hello();
+    cout<<"sduh\n";
 }
