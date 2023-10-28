@@ -8,5 +8,5 @@ void hello(){
 int main(){
     hello();
     cout<<"sduh\n";
-    cout<<"Fuck you";
+    cout<<"Fuck you!";
 }
