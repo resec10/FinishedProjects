@@ -1,0 +1,280 @@
+.header-container{
+    background-color: #00171F;
+    display: grid;
+    grid-template-columns: 100px 600px;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-container:hover{
+    cursor: pointer;
+}
+
+.header-container>h2{
+    width: 81px;
+}
+
+.titles{
+    font-family: "Poppins", sans-serif;
+    font-size: 60;
+    color: white;
+}
+
+.toolbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #302C3C;
+    height: 100px;
+}
+
+.products-button{
+    display: grid;
+    grid-template-columns: 100px 170px 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.completed-builds{
+    display: grid;
+    grid-template-columns: 100px 400px;
+    align-items: center;
+    gap: 30px;
+    transition: 0.3s;
+}
+
+
+.products-button:hover, .completed-builds:hover{
+    background-color: #00171F;
+    cursor:pointer;
+}
+
+.products-button svg{
+    transition: 0.3s;
+    animation-timing-function: linear;
+}
+
+.call-to-action{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.call-to-action>div{
+    display: grid;
+    width: 100vh;
+    font-family: 'Sansation', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.cta-text{
+    word-spacing: 50px;
+    font-size: 70px;
+}
+
+.cta-underline{
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cta-button{
+    background-color: #2C87C3;
+    width: 346px;
+    height: 76px;
+    border: 0px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.cta-button:hover{
+    background-color: #00171F;
+}
+
+.cta-button>div{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.cta-button>div>div{
+    font-family: 'Sansation', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.completed-builds-menu{
+    background-color: #4D4F85;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 40px;
+    padding: 100px;
+}
+
+.completed-builds-text{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    font-family: 'Sansation', sans-serif;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10%;
+    gap: 30px;
+}
+
+.completed-builds-title{
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+
+.completed-builds-subtitle{
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+}
+
+.completed-builds-text>div>button{
+    border: none;
+    background-color: #2C87C3;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.3s;
+}
+
+.completed-builds-text>div>button:hover{
+    background-color: #00171F;
+}
+
+.completed-builds-button{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.completed-builds-button>div{
+    color: white;
+    font-family: 'Sansation', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.completed-builds-card{
+    display: grid;
+    background-color: #302C3C;
+    width: 310px;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 20px;
+}
+
+.completed-builds-card:hover{
+    cursor: pointer;
+}
+
+.card-title{
+    font-family: "Alata", sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+}
+
+.card-subtitle{
+    font-family: "Alata", sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.card-subtitle>p{
+    color: #D9D9D9;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #00171F;
+    padding: 35px;
+}
+
+.services>ul, .company>ul{
+    list-style-type: none;
+}
+
+.services>ul>li, .company>ul>li{
+    font-family:"Sansation", sans-serif;
+    font-weight: lighter;
+    color: #2C87C3;
+    font-size: 20px;
+    gap: 5px;
+    transition: 0.3s;
+    width: 200px;
+}
+
+.services>p, .company>p{
+    font-family:"Sansation", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media>div>svg{
+    width: 30px;
+    height: 30px;
+}
+
+.pick-menu{
+    display: grid;
+    position: absolute;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
+    background-color: #282C3C;
+    z-index: 1;
+}
+
+.pick-menu>div{
+    border: 1px solid #F5F5F5;
+    transition: 0.3s;
+    color: white;
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+    width: 260px;
+    height: 195px;
+    margin: 30px;
+}
+
+.pick-menu>div:hover{
+    cursor: pointer;
+}
+
+.pick-menu>div:hover{
+    background-color: gray;
+}
+
+.pick-menu>div>img{
+    visibility: hidden;
+}
+
+.footer-item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

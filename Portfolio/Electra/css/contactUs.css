@@ -1,0 +1,73 @@
+.help-space {
+    background-color: #4D4F85;
+    text-align: center;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+}
+
+.form-space{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    font-size: 30px;
+}
+
+input[type=text]{
+    width: 585px;
+    height: 36px;
+}
+
+#com{
+    height: 205px;
+}
+
+.contact{
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 60%;
+    left: 30%;
+}
+
+.contact-title{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.contact-subtitle{
+    font-size: 30px;
+    color: white;
+}
+
+.send-btn{
+    display: grid;
+    justify-content: center;
+    padding: 3%;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+}
+
+.send-btn>button{
+    background-color: #4D4F85;
+    color: white;
+    border: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.3s;
+}
+
+.send-btn>button:hover{
+    background-color: white;
+    color: #4D4F85;
+}

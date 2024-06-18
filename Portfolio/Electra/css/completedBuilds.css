@@ -1,0 +1,13 @@
+.text-title{
+    font-family: 'Alata', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.completed-builds-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+}
